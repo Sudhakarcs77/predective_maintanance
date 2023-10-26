@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<body>
+    <!-- <h1>Simple Form</h1>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form> -->
+    <form action="/eda" method="post">
+        <button type="submit">EDA</button>
+    </form>
+
+    <h1>Flask Form Example</h1>
+    <form action="/predict" method="post">
+        <label for="temperature">Process temperature [K]:</label>
+        <input type="number" id="temperature" name="temperature" required>
+        <br>
+
+        <label for="speed">Rotational speed [rpm]:</label>
+        <input type="number" id="speed" name="speed" required>
+        <br>
+
+        <label for="tool_wear">Tool wear [min]:</label>
+        <input type="number" id="tool_wear" name="tool_wear" required>
+        <br>
+
+        <button type="submit">Predict Air Presure</button>
+    </form>
+
+</body>
+</html>
